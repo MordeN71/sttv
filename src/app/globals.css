@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #0f0a1e; /* Глубокий фиолетовый фон */
+    --foreground: #ffffff;
+    --accent: #a855f7; /* Неоновый фиолетовый */
+    --card: #16102b; /* Цвет блоков */
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    margin: 0;
+    padding: 0;
+}
